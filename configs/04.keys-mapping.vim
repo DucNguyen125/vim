@@ -46,10 +46,9 @@ vmap <C-_> <leader>c<Space>
 imap <C-_> <Esc><leader>c<Space>i
 
 "Undo
-inoremap <C-z> <Esc>ui
+" u
 
 "Redo
-inoremap <C-S-z> <Esc><C-r>i
 nnoremap <C-u> <C-r>
 
 " Go start, end file
@@ -141,10 +140,10 @@ nnoremap <C-h> :nohl<CR>
 nnoremap <A-f> /<C-R><C-W><CR>
 
 " Search word below cursor in folder
-nnoremap <A-F> :Rg <C-R><C-W><CR>
+nnoremap <C-A-f> :Rg <C-R><C-W><CR>
 
 " Search word in file
 nnoremap <C-f> /
 
 " Search word in folder
-nnoremap <C-S-f> :Rg<space>
+nnoremap <Leader>f :Rg<space>
